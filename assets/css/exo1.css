@@ -1,0 +1,92 @@
+html{
+    margin: 5cm;
+    background-color: #ffffff;
+    --fond-primaire: rgba(6, 54, 51, 0.89);
+    --bordure-fond:rgb(12, 185, 12);
+    --fondu: rgba(194, 194, 12, 0.473);
+    --fond-section:rgb(4, 50, 51);
+    --fond-titre-section: rgb(13, 106, 109) ;
+}
+
+body{
+    padding: 2cm;
+    font-family: sans-serif, cursive;
+    font-size: 15px;
+    width: 80%;
+    height: auto;
+    background-color:var(--fond-primaire);
+    border:4px dashed var(--bordure-fond);
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu {
+    text-align: center; 
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline white;
+}
+
+.menu a:link {color:white; text-decoration : none;}
+.menu a:visited {color:white; text-decoration: non;}
+.menu a:active {color:white; }
+.menu a:hover {color:white; background-color: var(--fondu);}
+
+figure{
+    justify-content: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+section{
+    width: 80%;
+    margin: 0 10%;
+    background-color: var(--fond-section) ;
+}
+
+section li{
+    list-style-position: inside;
+    text-align:justify center;
+    text-align: left;
+    margin-left: 20%;
+}
+
+section a{
+    text-decoration: underline white;
+}
+
+section a:link {color:white; text-decoration : none;}
+section a:visited {color:white; text-decoration: non;}
+section a:active {color:white; }
+section a:hover {color:white; background-color: var(--fondu);}
+
+h1{
+    text-decoration: overline underline 2px #ffffff;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+h2{
+    width: 100%;
+    display: block;
+    background-color: var(--fond-titre-section) ;
+    border-color:var(--fond-section) ;
+    border-style: dashed none;
+}
+
+h2, h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-size: italic bold;
+}
