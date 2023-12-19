@@ -27,6 +27,7 @@ img{
 
 section{
     width: 80%;
+    margin: 0 20%;
     display: block;
     justify-content: right;
     background-color: rgb(5, 60, 61) ;
