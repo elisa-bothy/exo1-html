@@ -27,7 +27,8 @@ body{
     width: 60%;
     height: auto;
     background-color:var(--fond-primaire);
-    border:4px dashed var(--bordure-fond);
+    outline: 2px dashed var(--bordure-fond);
+    outline-offset: -7px;
     color: #ffffff;
     text-align: center;
 }
@@ -116,7 +117,7 @@ h2{
     padding-bottom: 7px;
     padding-top: 7px;
     background-color: var(--fond-titre-section) ;
-    border: var(--fond-section) 4px ;
+    border: var(--fond-section) 2px ;
     border-style: dashed none;
     font-size: 15px;
     font-style: italic;
