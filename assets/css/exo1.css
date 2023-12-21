@@ -1,5 +1,6 @@
 :root{
-    margin: 5cm;
+    width: auto;
+    padding: 50px;
     background-color: #ffffff;
     --fond-primaire: rgba(6, 54, 51, 0.89);
     --bordure-fond:rgb(12, 185, 12);
@@ -21,14 +22,16 @@
 }
 
 body{
-    padding: 2cm;
+    padding-bottom: 0.09px;
+    padding-top: 60px;
+    margin-left: 240px;
     font-family: sans-serif, cursive;
     font-size: 10px;
     width: 60%;
     height: auto;
     background-color:var(--fond-primaire);
     outline: 2px dashed var(--bordure-fond);
-    outline-offset: -7px;
+    outline-offset: -8px;
     color: #ffffff;
     text-align: center;
 }
@@ -67,8 +70,19 @@ figcaption{
 }
 
 section{
-    width: 80%;
-    margin: 0 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: var(--fond-section) ;
+}
+
+.div-section{
+    display: flexbox;
+    width: auto;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8px;
+    height: 3px;
     background-color: var(--fond-section) ;
 }
 
