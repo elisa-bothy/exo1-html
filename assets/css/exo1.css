@@ -3,8 +3,8 @@
     background-color: #ffffff;
     --fond-primaire: rgba(6, 54, 51, 0.89);
     --bordure-fond:rgb(12, 185, 12);
-    --fondu: rgba(194, 194, 12, 0.473);
-    --fondu-shadow:rgba(194, 194, 12, 0.247);
+    --fondu: rgba(194, 194, 12, 0.250);
+    --fondu-shadow:rgba(194, 194, 12, 0.200);
     --fond-section:rgb(4, 50, 51);
     --fond-titre-section: rgb(13, 106, 109) ;
 }
@@ -49,8 +49,9 @@ body{
 .menu a:visited {color:white; text-decoration: none;}
 .menu a:active {color:white; text-decoration: none;}
 .menu a:hover {color:white; background-color: var(--fondu); 
-    box-shadow: 0 0 0.2em var(--fondu-shadow), 0 0 0.2em var(--fondu-shadow),
-    0 0 0.2em var(--fondu-shadow), 0 0 0.2em var(--fondu-shadow), 0 0 0.2em var(--fondu-shadow);}
+    box-shadow: 0 0 8px var(--fondu-shadow), inset 0 0 8px var(--fondu-shadow), 
+    0 0 16px var(--fondu-shadow), inset 0 0 16px var(--fondu-shadow),
+    0 0 32px var(--fondu-shadow), inset 0 0 32px var(--fondu-shadow);}
 
 .separateur{
     margin-left: 35px;
@@ -90,8 +91,9 @@ p, .source a, .source{
 .source a:visited {color:white; text-decoration: non;}
 .source a:active {color:white; }
 .source a:hover {color:white; background-color: var(--fondu); 
-    box-shadow: 0 0 0.2em var(--fondu-shadow), 0 0 0.2em var(--fondu-shadow),
-    0 0 0.2em var(--fondu-shadow), 0 0 0.2em var(--fondu-shadow), 0 0 0.2em var(--fondu-shadow);}
+    box-shadow: 0 0 8px var(--fondu-shadow), inset 0 0 8px var(--fondu-shadow), 
+    0 0 16px var(--fondu-shadow), inset 0 0 16px var(--fondu-shadow),
+    0 0 32px var(--fondu-shadow), inset 0 0 32px var(--fondu-shadow);}
  
 h1, h2, h3{
     text-align: center;
